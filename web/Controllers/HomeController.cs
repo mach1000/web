@@ -26,5 +26,13 @@ namespace web.Controllers
 
             return View();
         }
+
+        public ActionResult AddDb()
+        {
+            using (var ctx = new DataAccess.AppContext())
+            {
+               
+            }
+        }
     }
 }
